@@ -1,0 +1,12 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="7" fill="#c4ff3d"/>
+  <text
+    x="16"
+    y="23"
+    font-family="ui-sans-serif, system-ui, -apple-system, 'Inter', sans-serif"
+    font-size="22"
+    font-weight="900"
+    fill="#08080b"
+    text-anchor="middle"
+    letter-spacing="-1.5">e</text>
+</svg>
