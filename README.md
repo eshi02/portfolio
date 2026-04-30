@@ -1,18 +1,70 @@
-# React + Vite
+# Portfolio · eshika.dev
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio for **Eshika Singha** — full-stack engineer at 24/7 Software.
 
-Currently, two official plugins are available:
+🌐 **Live:** https://eshikasingha.netlify.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What's inside
 
-## React Compiler
+A single-page React + Vite site with:
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Animated hero with live IST clock, rising-text intro, and a mouse-following gradient blob
+- Bento-grid About section
+- Selected work — bespoke CSS previews of each real project (SketchMind, Election Assistant India)
+- Categorized skill chips: Languages · Frontend · Backend · Integrations & Analytics · AI & Cloud · Data & Infra
+- Experience timeline at 24/7 Software
+- Big-type contact section with email, GitHub, and LinkedIn links
+- Custom favicon (lime tile, bold "e"), Open Graph + Twitter card metadata, theme color
 
-Note: This will impact Vite dev & build performances.
+## Tech
 
-## Expanding the ESLint configuration
+- **React 19** + **Vite 8**
+- **Bricolage Grotesque** + **Inter** + **JetBrains Mono** (Google Fonts)
+- All styling in plain CSS — no UI library, no Tailwind
+- Hot-reload dev server via Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+
+Requires **Node 20.19+** or **22.12+** (Vite 8).
+
+```bash
+npm install
+npm run dev      # http://localhost:5173
+npm run build    # production bundle in dist/
+npm run preview  # preview the production build
+npm run lint     # ESLint
+```
+
+## Project structure
+
+```
+src/
+  App.jsx       # all sections + components
+  App.css       # all component styles
+  index.css     # design tokens, font imports, resets
+  main.jsx      # entry
+public/
+  favicon.svg   # lime "e" tile
+index.html      # title, meta tags, OG/Twitter cards
+```
+
+The whole site is one component file by design — easy to scan, easy to tweak.
+
+## Deploy
+
+Hosted on **Netlify** at [eshikasingha.netlify.app](https://eshikasingha.netlify.app).
+
+Update with either:
+
+```bash
+npm run build
+# then drag dist/ onto the Deploys tab on Netlify
+```
+
+…or connect Netlify to this repo for auto-deploy on `git push` (build command: `npm run build`, publish directory: `dist`).
+
+## Contact
+
+- **Email:** singhaeshika4@gmail.com
+- **LinkedIn:** [eshikasingha](https://www.linkedin.com/in/eshikasingha/)
+- **GitHub:** [eshi02](https://github.com/eshi02)
