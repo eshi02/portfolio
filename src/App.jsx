@@ -22,7 +22,7 @@ const PROJECTS = [
       'AI-graded landing page audits in 30 seconds. Paste a URL, get a 0–100 score plus a prioritized list of conversion fixes. Full SaaS — auth, billing, rate limiting, PDF exports — deployed on Firebase App Hosting.',
     tags: ['Next.js 16', 'Supabase', 'Drizzle', 'Gemini', 'Dodo Payments', 'Firebase'],
     href: 'https://landingcheck--landingcheck.asia-east1.hosted.app',
-    accent: 'lavender',
+    accent: 'emerald',
   },
   {
     key: 'election',
@@ -366,26 +366,11 @@ function ProjectPreview({ keyName }) {
   if (keyName === 'landingcheck') {
     return (
       <div className="preview landingcheck">
-        <div className="lc-brand">
-          <span className="lc-logo" />
-          LandingCheck
-          <span className="lc-beta">BETA</span>
-        </div>
-        <div className="lc-card">
-          <div className="lc-card-head">
-            <span className="lc-card-label">Sample audit</span>
-            <span className="lc-card-host">stripe.com</span>
-          </div>
-          <div className="lc-score">
-            <span className="lc-num">93</span>
-            <span className="lc-denom">/100</span>
-          </div>
-          <div className="lc-tags">
-            <span className="lc-tag good">hero clarity</span>
-            <span className="lc-tag good">CTA placement</span>
-            <span className="lc-tag warn">pricing</span>
-          </div>
-        </div>
+        <img
+          src="/landingcheck-preview.png"
+          alt="LandingCheck — sample audit showing a 93/100 score for stripe.com"
+          loading="lazy"
+        />
       </div>
     )
   }
