@@ -435,10 +435,10 @@ h2 em {
     radial-gradient(70% 90% at 50% 50%, rgba(61,196,255,0.18), transparent 60%),
     linear-gradient(135deg, var(--bg-3), var(--bg-2));
 }
-.project.accent-plum .project-mock {
+.project.accent-emerald .project-mock {
   background:
-    radial-gradient(70% 90% at 50% 0%, rgba(167, 139, 250, 0.18), transparent 60%),
-    linear-gradient(180deg, #0d0a1a, #07050f);
+    radial-gradient(70% 90% at 50% 0%, rgba(52, 211, 153, 0.18), transparent 65%),
+    linear-gradient(180deg, #06120e, #030806);
 }
 
 .mock-bar {
@@ -476,10 +476,10 @@ h2 em {
   border-color: rgba(196, 181, 253, 0.35);
   color: #ddd6fe;
 }
-.project.accent-plum .mock-badge {
-  background: rgba(167, 139, 250, 0.12);
-  border-color: rgba(167, 139, 250, 0.4);
-  color: #c4b5fd;
+.project.accent-emerald .mock-badge {
+  background: rgba(52, 211, 153, 0.14);
+  border-color: rgba(52, 211, 153, 0.4);
+  color: #6ee7b7;
 }
 
 /* preview frame */
@@ -577,7 +577,7 @@ h2 em {
 }
 
 /* LandingCheck preview — mirrors the real product's sample audit card */
-.preview.landingcheck { color: #ddd6fe; gap: 12px; }
+.preview.landingcheck { color: #d1fadf; gap: 12px; }
 .lc-brand {
   display: inline-flex;
   align-items: center;
@@ -591,8 +591,8 @@ h2 em {
 .lc-logo {
   width: 18px; height: 18px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #a78bfa, #7c3aed 70%, #5b21b6);
-  box-shadow: 0 0 0 1px rgba(167, 139, 250, 0.4);
+  background: linear-gradient(135deg, #6ee7b7, #10b981 70%, #047857);
+  box-shadow: 0 0 0 1px rgba(52, 211, 153, 0.45);
 }
 .lc-beta {
   font-family: var(--mono);
@@ -601,15 +601,15 @@ h2 em {
   text-transform: uppercase;
   padding: 2px 6px;
   border-radius: 4px;
-  background: rgba(167, 139, 250, 0.12);
-  border: 1px solid rgba(167, 139, 250, 0.35);
-  color: #c4b5fd;
+  background: rgba(52, 211, 153, 0.12);
+  border: 1px solid rgba(52, 211, 153, 0.35);
+  color: #6ee7b7;
 }
 .lc-card {
   margin-top: 2px;
   padding: 12px 14px;
   border-radius: 12px;
-  border: 1px solid rgba(167, 139, 250, 0.18);
+  border: 1px solid rgba(52, 211, 153, 0.18);
   background: rgba(255, 255, 255, 0.02);
   display: flex;
   flex-direction: column;
