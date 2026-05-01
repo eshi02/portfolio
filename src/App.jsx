@@ -22,7 +22,7 @@ const PROJECTS = [
       'AI-graded landing page audits in 30 seconds. Paste a URL, get a 0–100 score plus a prioritized list of conversion fixes. Full SaaS — auth, billing, rate limiting, PDF exports — deployed on Firebase App Hosting.',
     tags: ['Next.js 16', 'Supabase', 'Drizzle', 'Gemini', 'Dodo Payments', 'Firebase'],
     href: 'https://landingcheck--landingcheck.asia-east1.hosted.app',
-    accent: 'emerald',
+    accent: 'lavender',
   },
   {
     key: 'election',
@@ -416,6 +416,10 @@ function ProjectPreview({ keyName }) {
       <div className="gh-line">
         <span className="gh-tag">repo</span>
         <span className="gh-name">eshi02/sketch-mind</span>
+      </div>
+      <div className="gh-line">
+        <span className="gh-tag">repo</span>
+        <span className="gh-name">eshi02/landingcheck</span>
       </div>
       <div className="gh-line">
         <span className="gh-tag">repo</span>
