@@ -10,7 +10,7 @@ const PROJECTS = [
     blurb:
       'AI-powered platform that turns any topic into animated educational videos. A multi-agent pipeline researches, writes the script, and Manim renders it frame by frame.',
     tags: ['Python', 'Multi-Agent AI', 'Manim', 'EdTech'],
-    href: 'https://github.com/eshi02/sketch-mind',
+    href: 'https://sketchmind-web-55802859345.asia-south1.run.app',
     accent: 'violet',
   },
   {
@@ -32,7 +32,7 @@ const PROJECTS = [
     blurb:
       'AI assistant for first-time Indian voters — eligibility, polling booths, and fact-checks in any Indian language with voice support. Built on Gemini, Cloud Run, Firebase, Maps, Translate, and Text-to-Speech.',
     tags: ['Gemini', 'Cloud Run', 'Firebase', 'Translate', 'TTS', 'Maps'],
-    href: 'https://github.com/eshi02/election-assistant-india',
+    href: 'https://starry-runner-494505-d9.web.app/',
     accent: 'orange',
   },
   {
