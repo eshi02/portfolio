@@ -16,7 +16,7 @@ const PROJECTS = [
   {
     key: 'landingcheck',
     year: '2026',
-    name: 'LandingCheck',
+    name: 'PageLens',
     badge: 'Live',
     blurb:
       'AI-graded landing page audits in 30 seconds. Paste a URL, get a 0–100 score plus a prioritized list of conversion fixes. Full SaaS — auth, billing, rate limiting, PDF exports — deployed on Firebase App Hosting.',
