@@ -366,11 +366,46 @@ function ProjectPreview({ keyName }) {
   if (keyName === 'landingcheck') {
     return (
       <div className="preview landingcheck">
-        <img
-          src="/landingcheck-preview.png"
-          alt="LandingCheck — sample audit showing a 93/100 score for stripe.com"
-          loading="lazy"
-        />
+        <div className="lc-pill">
+          <span className="lc-pill-dot" />
+          AI-GRADED · 30+ HEURISTICS · ~5S
+        </div>
+        <h4 className="lc-headline">
+          Your landing page,{' '}
+          <span className="lc-headline-grad">graded honestly</span>{' '}
+          in 30 seconds.
+        </h4>
+        <div className="lc-card">
+          <div className="lc-card-head">
+            <span className="lc-card-label">Sample audit</span>
+            <span className="lc-card-host">stripe.com</span>
+          </div>
+          <div className="lc-score">
+            <span className="lc-num">93</span>
+            <span className="lc-denom">/100</span>
+          </div>
+          <p className="lc-card-desc">
+            Excellent — clear value prop, prominent CTAs, strong social proof.
+          </p>
+          <div className="lc-tags">
+            <span className="lc-tag good">
+              <span className="lc-tag-dot good" />
+              hero clarity
+            </span>
+            <span className="lc-tag good">
+              <span className="lc-tag-dot good" />
+              CTA placement
+            </span>
+            <span className="lc-tag good">
+              <span className="lc-tag-dot good" />
+              social proof
+            </span>
+            <span className="lc-tag warn">
+              <span className="lc-tag-dot warn" />
+              pricing transparency
+            </span>
+          </div>
+        </div>
       </div>
     )
   }
